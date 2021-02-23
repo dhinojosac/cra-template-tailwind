@@ -45,9 +45,11 @@ You will also see any lint errors in the console.
 
 ### Implemented
 
-[x] DarkMode with ThemeProvider
-[x] Routing
-[x] Tailwindcss
-[ ] Login
-[ ] Fetch Hooks
-[ ] State management
+- [x] DarkMode with ThemeProvider
+- [x] Routing
+- [x] Tailwindcss
+- [ ] Login
+- [ ] Fetch Hooks
+- [ ] State management
+
+

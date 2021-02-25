@@ -48,6 +48,7 @@ You will also see any lint errors in the console.
 - [x] DarkMode with ThemeProvider
 - [x] Routing
 - [x] Tailwindcss
+- [x] React Hook Form
 - [ ] Login
 - [ ] Fetch Hooks
 - [ ] State management

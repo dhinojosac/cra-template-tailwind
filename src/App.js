@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Form from './components/Form';
 
 function App() {
 
@@ -44,16 +45,22 @@ function App() {
                     <li>
                       <Link to="/users">Users</Link>
                     </li>
+                    <li>
+                      <Link to="/form">Form</Link>
+                    </li>
                   </ul>
                 </nav>
 
-                <div className="text-green-800 text-bold dark:text-white mt-10 bg-green-200 dark:bg-gray-700 rounded-xl w-3/4 p-10">
+                <div className="text-green-800 text-bold dark:text-white mt-10 bg-green-200 dark:bg-gray-700 rounded-xl w-3/4 p-10 ">
                   <Switch>
                     <Route path="/about">
                       <h1  >This is About</h1>
                     </Route>
                     <Route path="/users">
                       <h1 >This is Users</h1>
+                    </Route>
+                    <Route path="/form">
+                      <Form />
                     </Route>
                     <Route path="/">
                       <h1 >This is Home</h1>
